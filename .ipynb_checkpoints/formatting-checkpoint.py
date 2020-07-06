@@ -46,7 +46,7 @@ def getIncreaseColor(increase):
     if(increase >= 0):
         return increaseColor
     else:
-        return increaseColor
+        return decreaseColor
 
 #Annotations to help read the charts
 guideArrow = dict(arrowstyle='wedge',

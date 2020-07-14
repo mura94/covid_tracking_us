@@ -52,6 +52,9 @@ def getIncreaseColor(increase):
 guideArrow = dict(arrowstyle='wedge',
                         connectionstyle="angle3", color=medium, relpos = (1, 0.5))
 
+guideMark = dict(arrowstyle='-',
+                        color=increaseColor, relpos = (0.5, 0))
+
 def createLabelGuide(ax, text, xy, xycoords, textypos):
     ax.annotate(s=text,xy=xy, xytext=(-.3, textypos), 
                             textcoords='axes fraction', xycoords=xycoords, fontsize=11,

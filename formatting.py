@@ -9,10 +9,11 @@ labelColor = '#706D65'
 
 #Color scale pallette
 dark = '#85595C'
-medDark = '#FFD9D4'
+medDark = '#F6D5C8'
 light = '#FAF2ED'
-medLight = '#FDE3C3'
-medium = '#F5D8C4'
+medLight = '#FFF1DE' #'FDE3C3'
+medium = '#FDE3C3'
+medDark2 = '#FFD9D4'
 
 #Sets each spine to a more subtle color and width
 def formatBorder(ax):
@@ -22,6 +23,8 @@ def formatBorder(ax):
         
 #Returns a tuple that pairs two contrasting colors for the face and data display respectively
 def getContrastingColors(weeksClimbing):
+    if(weeksClimbing >= 5):
+        return (medDark2, dark)
     if(weeksClimbing >= 4):
         return (medDark, dark)
     if(weeksClimbing >= 3):

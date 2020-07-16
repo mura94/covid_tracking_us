@@ -53,7 +53,7 @@ def getIncreaseColor(increase):
 
 #Annotations to help read the charts
 guideArrow = dict(arrowstyle='wedge',
-                        connectionstyle="angle3", color=medium, relpos = (1, 0.5))
+                        connectionstyle="angle3", color=medDark, relpos = (1, 0.5))
 
 guideMark = dict(arrowstyle='-',
                         color=increaseColor, relpos = (0.5, 0))

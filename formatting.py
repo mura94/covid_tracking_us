@@ -9,11 +9,11 @@ labelColor = '#706D65'
 
 #Color scale pallette
 dark = '#85595C'
-medDark = '#F6D5C8'
+medDark = '#FAD5CF'#F5D6C6'
 light = '#FAF2ED'
-medLight = '#FFF1DE' #'FDE3C3'
-medium = '#FDE3C3'
-medDark2 = '#FFD9D4'
+medLight = '#FDE3C3'
+medium = '#EDD3D1'#FDE3C3'
+medDark2 = '#F7CDCE'
 
 #Sets each spine to a more subtle color and width
 def formatBorder(ax):

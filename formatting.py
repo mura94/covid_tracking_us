@@ -2,8 +2,8 @@
 redBar = '#ECCFC2'
 oneWeekDecreaseColor = '#ABEDC0'
 borderColor = '#D9B596'
-increaseColor = '#D93B3B'
-decreaseColor = '#577A36'
+increaseColor = '#F20505'
+decreaseColor = '#007509'
 titleColor = '#364959'
 labelColor = '#706D65'
 
@@ -11,8 +11,8 @@ labelColor = '#706D65'
 light = '#FAF2ED'
 medLight = '#FBE1C3'
 medium = '#FAC697'#FDE3C3'
-medDark = '#FFB199'#F5D6C6'
-medDark2 = '#FA8F7A'
+medDark = '#D98E73'#F5D6C6'
+medDark2 = '#D9765F'
 dark = '#702B15'
 
 
@@ -27,7 +27,7 @@ def getContrastingColors(weeksClimbing):
     if(weeksClimbing >= 5):
         return (medDark2, light)
     if(weeksClimbing >= 4):
-        return (medDark, dark)
+        return (medDark, light)
     if(weeksClimbing >= 3):
         return (medium, dark)
     if(weeksClimbing >= 2):

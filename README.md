@@ -1,4 +1,4 @@
-# Visualizing Daily COVID-19 Case Increases in the US
+# Visualizing Daily COVID-19 Case Increases in the US 🧪
 
 This repository is meant to be a vehicle for my python, matplotlib and JupyterLab practice.
 
